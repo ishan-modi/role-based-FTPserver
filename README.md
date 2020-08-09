@@ -1,8 +1,8 @@
-ROLE BASED FTP
+# ROLE BASED FTP
 
 This project is implemented in python2 virtual environment.
 
-Introduction
+## Introduction
 
 As the name suggest the project chosen as a term assignment for the course of
 Computer Network is Role Based FTP. Now, the question arises that what is a Role
@@ -16,7 +16,7 @@ additional functionalities like,
 • Priviledges required for accessing the files
 
 
-Technical Details
+## Technical Details
 
 You may wonder that this is just the definition but how it can be implemented ? So
 before going into the implementation and functionality let us discuss the Technical
@@ -31,7 +31,7 @@ the server and and write binary is used at the client end to create a new file t
 files like .txt, .JPEG, .mp3 etc, can be transferred using this model.
 
 
-Implementation
+## Implementation
 
 Let us now jump onto the Implementation :
 The server end starts by assigning it a socket and binding it to a port and ip there
@@ -47,7 +47,7 @@ done when a particular message is received. It also has a download function for
 receiving the data and upload function foe sending the data.
 
 
-Functionalities
+## Functionalities
 
 The Functionalities include :
 • Username and Password : Here predefined Username and corresponding
@@ -66,7 +66,7 @@ download files from only a few directories within the server.
 
 
 
-Common Difficulties
+## Common Difficulties
 
 Difficulties one may face while making a Role Based FTP :
 After the file transfer is completed the socket has to be emptied so that the
@@ -80,7 +80,7 @@ same number of recieve statement at the reciever end. The second one works
 better out of the two.
 
 
-Conclusion
+## Conclusion
 
 Nowadays FTP is used in large companies and even in universities, for quick file
 transfer between end-systems in same network or different local networks. It
